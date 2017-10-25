@@ -1,5 +1,5 @@
 {
-    "name": "AleFerreiraNogueira/RestQueryBuilder",
+    "name": "aleferreiranogueira/restquerybuilder",
     "type": "library",
     "description": "A simple HTTP Query Builder for Laravel 5.x",
     "keywords": [

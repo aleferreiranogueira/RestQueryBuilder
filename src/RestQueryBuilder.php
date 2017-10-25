@@ -2,8 +2,8 @@
 
 namespace AleFerreiraNogueira\RestQueryBuilder;
 
-use AleFerreiraNogueira\Filter;
-use AleFerreiraNogueira\Pagination;
+use AleFerreiraNogueira\RestQueryBuilder\Filter;
+use AleFerreiraNogueira\RestQueryBuilder\Pagination;
 use Illuminate\Http\Request;
 
 class RestQueryBuilder

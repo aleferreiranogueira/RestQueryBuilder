@@ -9,6 +9,18 @@ Via Composer
 $ composer require aleferreiranogueira/restquerybuilder
 ```
 
+Add the Service Provider to your config/app.php
+```php
+AleFerreiraNogueira\RestQueryBuilder\RestQueryBuilderServiceProvider::class
+```
+Add the Filter Middleware to your app/Htpp/Kernel.php
+
+```php
+'filter' => \AleFerreiraNogueira\RestQueryBuilder\Middleware\Filter::class
+```
+
+Don't forget to add the *'filter'* middleware to your routes that you want to use the QueryBuilder.
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
